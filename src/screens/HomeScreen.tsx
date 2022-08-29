@@ -23,7 +23,6 @@ export const HomeScreen = ({ navigation }) => {
 
   return (
     <View>
-      <Header></Header>
       <Search value={term} setValue={setTerm}></Search>
       <Categories
         categories={listData}
